@@ -1,0 +1,16 @@
+PODS:
+  - Gifu (3.2.0)
+
+DEPENDENCIES:
+  - Gifu
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Gifu
+
+SPEC CHECKSUMS:
+  Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
+
+PODFILE CHECKSUM: 6056a56d1cc37b1ce12b6102cf1de85df6e45f2c
+
+COCOAPODS: 1.5.3

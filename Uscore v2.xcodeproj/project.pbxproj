@@ -17,6 +17,7 @@
 		DAC3E7FC21A7F24F00F9DC47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3E7FB21A7F24F00F9DC47 /* HomeViewController.swift */; };
 		DAC3E7FE21A8010000F9DC47 /* TeamClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3E7FD21A8010000F9DC47 /* TeamClass.swift */; };
 		DAC3E80021A8273900F9DC47 /* AcessAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3E7FF21A8273900F9DC47 /* AcessAppController.swift */; };
+		DAC3E80221A873BD00F9DC47 /* FilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3E80121A873BD00F9DC47 /* FilmTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DAC3E7FB21A7F24F00F9DC47 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAC3E7FD21A8010000F9DC47 /* TeamClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamClass.swift; sourceTree = "<group>"; };
 		DAC3E7FF21A8273900F9DC47 /* AcessAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessAppController.swift; sourceTree = "<group>"; };
+		DAC3E80121A873BD00F9DC47 /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				DAC3E7FD21A8010000F9DC47 /* TeamClass.swift */,
+				DAC3E80121A873BD00F9DC47 /* FilmTableViewCell.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				DA63DA6621A6DC7100ACA345 /* ViewController.swift in Sources */,
 				DA63DA6421A6DC7100ACA345 /* AppDelegate.swift in Sources */,
 				DAC3E7FC21A7F24F00F9DC47 /* HomeViewController.swift in Sources */,
+				DAC3E80221A873BD00F9DC47 /* FilmTableViewCell.swift in Sources */,
 				DAC3E7FE21A8010000F9DC47 /* TeamClass.swift in Sources */,
 				DAC3E80021A8273900F9DC47 /* AcessAppController.swift in Sources */,
 			);

@@ -14,12 +14,53 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var topTwoSquare: UICollectionViewCell!
     @IBOutlet weak var topThreeSquare: UICollectionViewCell!
     @IBOutlet weak var labelTop3: UILabel!
+    @IBOutlet weak var top3View: UIView!
+    
+    
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //
+        
+        
+        //USE HEXA COLORS
+        func hexStringToUIColor (hex:String) -> UIColor {
+            var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+            
+            if (cString.hasPrefix("#")) {
+                cString.remove(at: cString.startIndex)
+            }
+            
+            if ((cString.count) != 6) {
+                return UIColor.gray
+            }
+            
+            var rgbValue:UInt32 = 0
+            Scanner(string: cString).scanHexInt32(&rgbValue)
+            
+            return UIColor(
+                red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+                green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+                blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+                alpha: CGFloat(1.0)
+            )
+        }
+        
+        
+        
+        
+        
+        //Initialise red color
+        let redColor = hexStringToUIColor(hex: "A0041C")
+        
+        //Initialise blue color
+        _ = hexStringToUIColor(hex: "001971")
+        
+        //TOP 3 TITLE
+        labelTop3.textColor = redColor
+        
         
         
         //FIRST SQUARE RADIUS

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BB1A680A5CA64E6FD3427F1B /* Pods_Uscore_v2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C81709AE06E06B05D0614 /* Pods_Uscore_v2.framework */; };
 		DA18F54621AED681003EFA56 /* FavoritesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA18F54521AED681003EFA56 /* FavoritesTable.swift */; };
+		DA4FF79721AF093700D7D32D /* ArticlesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FF79621AF093700D7D32D /* ArticlesController.swift */; };
+		DA4FF79921AF4C3200D7D32D /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = DA4FF79821AF4C3200D7D32D /* .gitattributes */; };
 		DA63DA6421A6DC7100ACA345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63DA6321A6DC7100ACA345 /* AppDelegate.swift */; };
 		DA63DA6621A6DC7100ACA345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63DA6521A6DC7100ACA345 /* ViewController.swift */; };
 		DA63DA6921A6DC7100ACA345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA63DA6721A6DC7100ACA345 /* Main.storyboard */; };
@@ -17,7 +19,6 @@
 		DAC3E7F321A71D2E00F9DC47 /* NEW.gif in Resources */ = {isa = PBXBuildFile; fileRef = DAC3E7F221A71D2E00F9DC47 /* NEW.gif */; };
 		DAC3E7FC21A7F24F00F9DC47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3E7FB21A7F24F00F9DC47 /* HomeViewController.swift */; };
 		DAC3E80021A8273900F9DC47 /* AcessAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3E7FF21A8273900F9DC47 /* AcessAppController.swift */; };
-		DAC3E80221A873BD00F9DC47 /* FilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3E80121A873BD00F9DC47 /* FilmTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		8C01351AB80EC621FA6BACDE /* Pods-Uscore v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uscore v2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uscore v2/Pods-Uscore v2.debug.xcconfig"; sourceTree = "<group>"; };
 		8F330A62C7792002AB0C2011 /* Pods-Uscore v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uscore v2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uscore v2/Pods-Uscore v2.release.xcconfig"; sourceTree = "<group>"; };
 		DA18F54521AED681003EFA56 /* FavoritesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTable.swift; sourceTree = "<group>"; };
+		DA4FF79621AF093700D7D32D /* ArticlesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesController.swift; sourceTree = "<group>"; };
+		DA4FF79821AF4C3200D7D32D /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		DA63DA6021A6DC7100ACA345 /* Uscore v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uscore v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA63DA6321A6DC7100ACA345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA63DA6521A6DC7100ACA345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +57,6 @@
 		DAC3E7F221A71D2E00F9DC47 /* NEW.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NEW.gif; sourceTree = "<group>"; };
 		DAC3E7FB21A7F24F00F9DC47 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAC3E7FF21A8273900F9DC47 /* AcessAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessAppController.swift; sourceTree = "<group>"; };
-		DAC3E80121A873BD00F9DC47 /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				DAC3E7F421A7255C00F9DC47 /* protocols */,
 				DA63DA6321A6DC7100ACA345 /* AppDelegate.swift */,
 				DA63DA6F21A6DC7400ACA345 /* Info.plist */,
+				DA4FF79821AF4C3200D7D32D /* .gitattributes */,
 			);
 			path = "Uscore v2";
 			sourceTree = "<group>";
@@ -136,7 +139,6 @@
 		DAC3E7F421A7255C00F9DC47 /* protocols */ = {
 			isa = PBXGroup;
 			children = (
-				DAC3E80121A873BD00F9DC47 /* FilmTableViewCell.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -148,6 +150,7 @@
 				DAC3E7FB21A7F24F00F9DC47 /* HomeViewController.swift */,
 				DAC3E7FF21A8273900F9DC47 /* AcessAppController.swift */,
 				DA18F54521AED681003EFA56 /* FavoritesTable.swift */,
+				DA4FF79621AF093700D7D32D /* ArticlesController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4FF79921AF4C3200D7D32D /* .gitattributes in Resources */,
 				DA63DA6E21A6DC7400ACA345 /* LaunchScreen.storyboard in Resources */,
 				DAC3E7F321A71D2E00F9DC47 /* NEW.gif in Resources */,
 				DA63DA6B21A6DC7400ACA345 /* Assets.xcassets in Resources */,
@@ -357,9 +361,9 @@
 			files = (
 				DA63DA6621A6DC7100ACA345 /* ViewController.swift in Sources */,
 				DA63DA6421A6DC7100ACA345 /* AppDelegate.swift in Sources */,
+				DA4FF79721AF093700D7D32D /* ArticlesController.swift in Sources */,
 				DA18F54621AED681003EFA56 /* FavoritesTable.swift in Sources */,
 				DAC3E7FC21A7F24F00F9DC47 /* HomeViewController.swift in Sources */,
-				DAC3E80221A873BD00F9DC47 /* FilmTableViewCell.swift in Sources */,
 				DAC3E80021A8273900F9DC47 /* AcessAppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

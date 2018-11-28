@@ -57,12 +57,10 @@
 		DAC3E7F221A71D2E00F9DC47 /* NEW.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NEW.gif; sourceTree = "<group>"; };
 		DAC3E7FB21A7F24F00F9DC47 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAC3E7FF21A8273900F9DC47 /* AcessAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessAppController.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
 		DAC3E80121A873BD00F9DC47 /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
 		E9E25F7FE6576C4171F9DB81 /* Pods_Uscore_v2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uscore_v2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED70A10F63F32BD2A91E6ADA /* Pods-Uscore v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uscore v2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uscore v2/Pods-Uscore v2.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> 65749543240a3339f0dfe4295abbd253b2f2c099
+65749543240a3339f0dfe4295abbd253b2f2c099
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

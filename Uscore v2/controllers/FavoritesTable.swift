@@ -9,9 +9,6 @@
 import Foundation
 import UIKit
 
-
-
-
 // Declaration of the table structure
 struct cellData {
     // Open or not

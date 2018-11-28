@@ -9,5 +9,6 @@ target 'Uscore v2' do
 
   pod 'Gifu'
   pod 'Firebase/Core'
+  pod 'SwiftyJSON', '~> 4.0'
 
 end

@@ -49,10 +49,12 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - Firebase/Core
   - Gifu
+  - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -64,6 +66,7 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Firebase: 9190018e296139d938b99521cde0c15a6e8d2946
@@ -74,7 +77,8 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
   GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: c464be535585225701271cd4fbc4b6c3285d9497
+PODFILE CHECKSUM: 50af533c659a56b5737d3ede90f5449dae4c4084
 
 COCOAPODS: 1.5.3

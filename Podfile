@@ -8,5 +8,6 @@ target 'Uscore v2' do
   # Pods for Uscore v2
 
   pod 'Gifu'
+  pod 'Firebase/Core'
 
 end
